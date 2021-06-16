@@ -1,0 +1,79 @@
+.ListElement {
+  border: 1px solid #d6d5d7;
+  border-radius: 54.5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px;
+}
+
+.ListElement:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.ListElementUndefined {
+  border: 1px solid #d6d5d7;
+  border-radius: 54.5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px;
+}
+
+.ListElementUndefined:hover {
+  cursor: pointer;
+  background: #dddddd;
+}
+
+.ListArrow {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ListElementImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16px;
+  width: 16px;
+}
+
+.ListElementImageElement {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ListElementTitle {
+  font-family: AvenirNext-Medium;
+  font-size: 16px;
+  color: #aaaaaa;
+  letter-spacing: 1.67px;
+}
+
+.ListElementSubTitle {
+  font-family: AvenirNext-Regular;
+  font-size: 14px;
+  color: #aaaaaa;
+  letter-spacing: 1.5px;
+}
+
+.ListElementFaviconTitleSpacer {
+  width: 14px;
+  height: 100%;
+}
+
+.ListElementTitleSubTitleSpace {
+  width: 20px;
+  height: 100%;
+}

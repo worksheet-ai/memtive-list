@@ -1,0 +1,26 @@
+.ListSearchContainer {
+  padding-left: 18px;
+  padding-right: 18px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.ListSearch {
+  marign: 0;
+  background: #ffffff;
+  border: 1px solid #efeff4;
+  border-radius: 7px;
+  width: 100%;
+  font-family: AvenirNext-Regular;
+  font-size: 16px;
+  color: #c7c7cc;
+  letter-spacing: 1.67px;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.ListSearchContainerIcon {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}

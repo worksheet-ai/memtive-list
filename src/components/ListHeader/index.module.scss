@@ -1,0 +1,40 @@
+.ListHeader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  box-sizing: border-box;
+}
+
+.ListHeaderText {
+  font-family: AvenirNext-Medium;
+  font-size: 24px;
+  color: #8e8e93;
+  letter-spacing: 4px;
+}
+
+.ListHeaderSpacer {
+  flex-grow: 1;
+}
+
+.ListHeaderIconContainer {
+  display: flex;
+}
+
+.ListHeaderIcon {
+  margin-left: 18px;
+  cursor: pointer;
+}
+
+.ListHeaderIcon:hover g {
+  stroke: #007bff;
+}
+
+.ListHeaderIconDisabled {
+  margin-left: 18px;
+}
+
+.ListHeaderIconDisabled g {
+  stroke: #efeff4;
+}
